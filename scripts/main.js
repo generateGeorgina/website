@@ -28,6 +28,5 @@ for (let websiteName in websiteData) {
     console.log(websiteName);
     console.log(liWebsiteName);
     liElement.appendChild(liWebsiteName);
-    console.log(websiteName[url]);
-    liElement.setAttribute.href = websiteName[url];
+    liElement.setAttribute.href = websiteName['url']; //don't forget quote marks otherwise you get a reference error
 }
