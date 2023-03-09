@@ -5,7 +5,7 @@ html {
 .all-projects-footer {
     margin-bottom: 0;
 }
-.footer {
+#footer {
     /* list-style-type: none; */
     display: inline;
 }
