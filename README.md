@@ -1,1 +1,2 @@
 # website
+For my website I constructed a website object for my footer with url links to my webpages. I used a nested for in loop to set the href attribute to the url property value. Then I created seperate sections and populated my p elements with pre-written text. After I added a button to toggle the view of repo links. I styles the button with CSS and used flexbox on the repolinks.

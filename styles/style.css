@@ -10,6 +10,19 @@ html {
     display: inline;
 }
 
+main {
+    display: flex;
+    padding: 20px;
+}
+
+
+
+@media (max-width: 800px) {
+    main, #repo-links {
+        flex-direction: column;
+    }
+}
+
 hr {
     border: none;
     background-color: #EDEDE9;
@@ -47,4 +60,22 @@ hr {
 #enter-button:hover {
     background-color: #102858;
     color: white;
+}
+img {
+    width: 100%;
+    max-width: 500px;
+}
+
+#repo-links {
+    display: none;
+    /* display: flex; */
+    justify-content: space-around;
+    align-content: center;
+    padding: 20px;
+
+}
+
+#repo-links-button {
+    background-color:#EDEDE9;
+    border-color:#eadccd; 
 }

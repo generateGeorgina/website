@@ -47,3 +47,19 @@ for (let websiteName in websiteData) {
     }
     
 };
+
+const repoLinksButton = document.getElementById('repo-links-button');
+const repoLinksList = document.getElementById('repo-links');
+// console.log(repoLinksButton);
+// console.log(repoLinksList);
+function clickButton() {
+    if (repoLinksList.style.display === 'none') {
+        repoLinksList.style.display = 'flex';
+        // console.log('this works')
+    } else {
+        repoLinksList.style.display = 'none';
+        // console.log('this does not work')
+    }
+}
+
+let renderRepoLinks = repoLinksButton.addEventListener("click", clickButton);
