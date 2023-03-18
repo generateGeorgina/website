@@ -12,7 +12,7 @@ let websiteData = {
         url: "https://generategeorgina.github.io/website/"
     },
     "game": {
-        url: "PLACEHOLDER"
+        url: "https://generategeorgina.github.io/game/"
     },
     
 };
