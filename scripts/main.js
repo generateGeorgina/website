@@ -6,7 +6,7 @@ let websiteData = {
         url: "https://generategeorgina.github.io/project-gallery/"
     },
     "movie data": {
-        url: "https://github.com/generateGeorgina.github.io/movie-data"
+        url: "https://generategeorgina.github.io/movie-data"
     },
     "website": {
         url: "https://generategeorgina.github.io/website/"
